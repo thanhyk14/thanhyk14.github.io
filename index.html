@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang Giới Thiệu Cá Nhân</title>
+    <style>
+      /* CSS cho hiệu ứng đẹp đẽ */
+      /* Ví dụ: */
+      .fade-in {
+        animation: fade-in 1s ease-in-out;
+      }
+
+      @keyframes fade-in {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      .slide-in {
+        animation: slide-in 1s ease-in-out;
+      }
+
+      @keyframes slide-in {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fade-in">
+      <h1>Trang Giới Thiệu Cá Nhân</h1>
+      <img src="avatar.jpg" alt="Ảnh đại diện" />
+      <p>Xin chào! Tôi là [Tên của bạn].</p>
+      <p>Tôi là một [nghề nghiệp] và đam mê [sở thích].</p>
+    </div>
+
+    <div class="slide-in">
+      <h2>Thông tin liên hệ</h2>
+      <ul>
+        <li>Email: [Địa chỉ email]</li>
+        <li>Số điện thoại: [Số điện thoại]</li>
+        <li>Website: <a href="[Đường dẫn website]">[Tên website]</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
